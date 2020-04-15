@@ -1,0 +1,13 @@
+-
+  entity: media
+  uuid: 5e96cba63c608
+  bundle: document
+  name: 'Prix Empreintes'
+  field_media_file:
+    -
+      '#process':
+        callback: file
+        args:
+          - document
+          -
+            filename: documents/Communiques_presse/2.pdf
